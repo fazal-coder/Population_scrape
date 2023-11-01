@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 import pandas as pd
 
 browser_options = Options()
-webdriver_path = r'D:\python\automation\chromedriver-win64\chromedriver.exe'
+webdriver_path = r'path\to\chromedriver.exe' # Mention Here Chrome Driver path
 service = Service(executable_path=webdriver_path)
 driver = webdriver.Chrome(service=service, options=browser_options)
 url = 'https://www.worldometers.info/world-population/population-by-country/'
